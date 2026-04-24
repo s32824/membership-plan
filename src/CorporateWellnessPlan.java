@@ -48,7 +48,6 @@ public class CorporateWellnessPlan extends MembershipPlan implements RemoteAcces
 
     @Override
     public String toString() {
-        return super.toString() + String.format(", Employees: %d, Workshops: %d, Dashboard: %b",
-                employeeCount, workshopsPerMonth, onlineDashboard);
+        return super.toString() + String.format(", Employees: %d, Workshops: %d, Dashboard: %b", employeeCount, workshopsPerMonth, onlineDashboard);
     }
 }

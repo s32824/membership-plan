@@ -3,9 +3,9 @@ public class Main {
         MembershipPlan[] plans = new MembershipPlan[] {
                 new GymMembershipPlan("GYM-100", "Anna Kowalska", 3, 99.0, true, 12, false),
                 new GymMembershipPlan("GYM-101", "Piotr Nowak", 6, 109.0, false, 18, true),
-                /*
                 new PersonalTrainingPlan("PT-200", "Marta Zielinska", 4, 140.0, true, 4, 2, false),
                 new PersonalTrainingPlan("PT-201", "Jan Malinowski", 6, 150.0, false, 8, 3, true),
+                /*
                 new OnlineCoachingPlan("ONL-300", "Karolina Wisniewska", 6, 89.0, true, 2, true, true),
                 new OnlineCoachingPlan("ONL-301", "Pawel Adamski", 3, 79.0, false, 1, false, true),
                 new CorporateWellnessPlan("CORP-400", "TechNova Sp. z o.o.", 12, 350.0, true, 25, 2, true),

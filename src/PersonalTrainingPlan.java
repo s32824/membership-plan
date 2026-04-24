@@ -41,7 +41,6 @@ public class PersonalTrainingPlan extends MembershipPlan {
 
     @Override
     public String toString() {
-        return super.toString() + String.format(", Sessions: %d, Trainer Level: %d, Diet: %b",
-                sessionsPerMonth, trainerLevel, dietConsultationIncluded);
+        return super.toString() + String.format(", Sessions: %d, Trainer Level: %d, Diet: %b", sessionsPerMonth, trainerLevel, dietConsultationIncluded);
     }
 }
